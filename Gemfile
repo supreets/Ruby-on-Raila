@@ -12,6 +12,11 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
+gem 'devise', '~> 3.4.0'
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'faker',                '1.4.2'
+
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
