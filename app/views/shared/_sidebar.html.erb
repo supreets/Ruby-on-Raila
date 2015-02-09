@@ -1,0 +1,19 @@
+<div class="col-md-2">
+  <table class = "table">
+    <thead>
+      <tr>
+        <th>Categories</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+    <% @categories.each do |e| %>
+    
+        <tr class = 'row'>
+          <td><h4><%= link_to e.name, category_path(e.id) %></h4></td>
+        </tr>
+    <% end %>
+    
+    </tbody>
+  </table>
+</div>

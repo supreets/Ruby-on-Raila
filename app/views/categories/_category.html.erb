@@ -1,0 +1,4 @@
+<tr>
+     <th><span><%= link_to category.name ,category_path(category.id) %></span></th>
+      <th><span><%= link_to 'Delete', category, method: :delete, data: {confirm: "You Sure?"}, :class => 'btn btn-mini btn-danger' %></span></th>
+</tr>
